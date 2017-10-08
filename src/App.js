@@ -12,6 +12,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="header">
+            <img src="/img/FPOK.png" alt="UPI Logo"/>
             <h1>Pengumuman DPM dan HIMA IKOR periode 2017/2018 FPOK UPI</h1>
             <form action="">
               <input placeholder="Masukkan NIM" type="text"/>
