@@ -43,7 +43,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="header">
-            <img src="/img/FPOK.png" alt="UPI Logo"/>
+            <img src={ (process.env.PUBLIC_URL ? process.env.PUBLIC_URL : '') + "/img/FPOK.png" } alt="UPI Logo"/>
             <h1>Pengumuman DPM dan HIMA IKOR periode 2017/2018 FPOK UPI</h1>
             <form onSubmit={this.onSubmit}>
               <input placeholder="Masukkan NIM" type="text" onChange={this.handleChange}/>
