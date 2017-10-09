@@ -88,4 +88,7 @@ input[type="text"]:focus {
     display: flex;
     margin: auto;
   }
+  .footer {
+    margin-top: 15px;
+  }
 }
