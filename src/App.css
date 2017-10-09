@@ -16,7 +16,7 @@
 }
 
 .container .header img {
-  width: 30%;
+  width: 150px;
   margin-bottom: 20px;
 }
 
@@ -26,6 +26,7 @@
   border: 1px dashed;
   border-radius: 10px;
   margin: 5px;
+  width: 100%;
 }
 
 .header {
@@ -82,10 +83,14 @@ input[type="text"]:focus {
   .container, .header {
     display: block;
     width: 90%;
+    height: auto;
   }
 
   .header {
-    display: flex;
+    margin: auto;
+  }
+
+  .header form {
     margin: auto;
   }
 }
